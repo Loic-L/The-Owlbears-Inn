@@ -1,0 +1,419 @@
+/*--------------------------Navbar-----------------------------*/
+.navbar-brand img {
+    max-height: 40px;
+}
+
+
+#navTitle {
+    font-family: 'Raleway', sans-serif;
+}
+
+.menu {
+    font-family: 'Raleway', sans-serif;
+}
+
+.navbar-light .navbar-brand:focus {
+    color: white;
+} 
+
+
+.navbar-light .navbar-brand:hover {
+    color: rgba(43, 32, 72, 0.5);
+}
+
+.navbar-light .navbar-nav .active>.nav-link, .navbar-light .navbar-nav .nav-link.active, .navbar-light .navbar-nav .nav-link.show, .navbar-light .navbar-nav .show>.nav-link {
+    color: rgba(255, 255, 255, 0.9);
+}
+
+.navbar-light .navbar-brand {
+    color: rgba(255, 255, 255, 0.9);
+}
+
+.bg-light {
+    background-color: #4E7429!important;
+} 
+
+/*--------------------------Header-----------------------------*/
+.btn-info.focus, .btn-info:focus {
+    color: #fff;
+    background-color: #4E7429;
+    border-color: #4E7429;
+    box-shadow: 0 0 0 0.2rem rgba(43, 32, 72, 0.5);
+}
+
+.btn-info:not(:disabled):not(.disabled).active, .btn-info:not(:disabled):not(.disabled):active, .show>.btn-info.dropdown-toggle {
+    color: #fff;
+    background-color: #4E7429;
+    border-color: #4E7429;
+}
+
+.btn-info:hover {
+    color: #fff;
+    background-color: #4E7429;
+    border-color: #4E7429;
+}
+
+.btn-info {
+    color: #fff;
+    background-color: #4E7429;
+    border-color: #fff;
+    font-family: 'Raleway', sans-serif;
+}
+
+
+/* commande "../" pour remonter dans un autre dossier */
+header .row {   
+    background-image: url(https://zupimages.net/up/20/13/qkk0.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+    min-height: 90vh;
+    color: white;
+    clip-path: polygon(20% 0%, 80% 0%, 100% 0, 100% 80%, 80% 100%, 20% 100%, 0% 80%, 0 0);
+}
+
+header .formReservation {
+    background-color: rgba(0, 0, 0, 0.5);
+    min-height: 90vh;
+    display: flex;
+    align-items: center;
+}
+
+header h1 {
+    font-family: 'Raleway', sans-serif;
+}
+
+
+header h2 {
+    font-family: 'Dancing Script', cursive;
+    margin-bottom: -10px;
+    color: white;
+    font-size: 38px;
+    font-weight: bolder;
+}
+
+header .slogan {
+    display: flex;
+    min-height: 70vh;
+    align-items: flex-end;
+    justify-content: flex-start;
+}
+
+@media (max-width: 768px) {
+    header .slogan{
+        display: none;
+    }
+}
+
+/*--------------------------Presentation-----------------------------*/
+#presentation p {
+    font-family: 'Raleway', sans-serif;
+}
+
+#presentation h5 {
+    font-family: 'Dancing Script', cursive;
+    font-weight: bolder;
+    font-size: 1.5rem;
+}
+
+#presentation #dungeon h5 {
+    color: #756F71;
+}
+
+#presentation #beer h5 {
+    color: #4E7429;
+}
+
+#presentation #dragon h5 {
+    color: #9C0B18;
+}
+
+#presentation #dice h5 {
+    color: #2B2048;
+}
+
+#presentation #acquisitions h5 {
+    color: #c1e1e0;
+}
+
+#presentation #scroll h5 {
+    color: #DBB66C;
+}
+
+#presentation .media span {
+    
+    font-size: 3rem;
+    width: 4rem;
+    text-align: center;
+}
+
+#presentation h2 {
+    font-family: 'Dancing Script', cursive;
+    color: #756F71;
+    font-weight: bolder;
+    font-size: 40px;
+}
+
+#presentation .media {
+    padding: .5rem 1rem;
+    border-radius: 15px;
+    transition: all .4s ease-in-out;
+}
+
+#presentation .media:hover {
+    background-color: #756F71;
+}
+
+
+.fa-dungeon {
+    color: #756F71;
+}
+
+#presentation #dungeon:hover {
+    background-color: rgba(117, 111, 113, 0.5);
+}
+
+.fa-beer {
+    color: #4E7429;
+}
+
+#presentation #beer:hover {
+    background-color: rgba(113, 151, 75, 0.5)
+}
+
+.fa-dragon {
+    color: #9C0B18;
+}
+
+#presentation #dragon:hover {
+    background-color: rgba(156, 11, 24, 0.5)
+}
+
+.fa-dice-d20 {
+    color: #2B2048;
+}
+
+#presentation #dice:hover {
+    background-color: rgba(43, 32, 72, 0.5)
+}
+
+.fa-acquisitions-incorporated {
+    color: #c1e1e0;
+}
+
+#presentation #acquisitions:hover {
+    background-color:  rgba(193, 225, 224, 0.5)
+}
+
+.fa-scroll {
+    color: #DBB66C;
+}
+
+#presentation #scroll:hover {
+    background-color: rgba(219, 182, 108, 0.5)
+}
+
+/*--------------------------Multivers-----------------------------*/
+
+.multiv {
+    color: #9C0B18;
+    font-family: 'Dancing Script', cursive;
+    font-weight: bolder;
+}
+
+ol.carousel-indicators {
+    position: absolute;
+    bottom: 0;
+    margin: 0;
+    left: 0;
+    right: 0;
+    width: auto;
+  }
+
+
+ol.carousel-indicators li,
+ol.carousel-indicators li.active {
+  float: left;
+  width: 33%;
+  height: 5px;
+  margin: 0;
+  border-radius: 30px;
+  border: 0;
+  background: transparent;
+}
+
+ol.carousel-indicators li.active {
+  background: #9C0B18;
+}
+
+.carousel {
+    border-radius: 15px;
+    overflow: hidden;
+}
+
+.jumbotron {
+    background-color: rgba(156, 11, 24, 0.8);
+    border-radius: 15px;
+}
+
+
+.jumbotron h1 {
+    font-family: 'Dancing Script', cursive;
+    font-weight: bolder;
+    color: white;
+    margin-top: -2rem;
+}
+
+.jumbotron p {
+    margin-top: 4rem;
+    font-family: 'Raleway', sans-serif;
+    color: white;
+}
+
+.jumbotron h3 {
+    font-family: 'Dancing Script', cursive;
+    font-weight: bolder;
+    color: white;
+    margin-top: 3rem;
+}
+
+#ref {
+    margin-top: 2rem;
+    font-family: 'Raleway', sans-serif;
+    color: white;
+}
+
+/*--------------------------Sessions-----------------------------*/
+.card {
+    margin-top: 3rem;
+    margin-bottom: 5rem;
+    border-radius: 8px;
+}
+
+.card-text {
+    font-family: 'Raleway', sans-serif;
+}
+
+#sessions h5 {
+    font-family: 'Raleway', sans-serif;
+    font-weight: 600;
+}
+
+#sessions h1 {
+    color: #2B2048;
+    font-family: 'Dancing Script', cursive;
+    font-weight: bolder;
+}
+
+#sessionsPartp {
+    font-family: 'Raleway', sans-serif;
+    margin-top: 3rem;
+    margin-bottom: 3rem;
+    color: white;
+}
+
+.titretext {
+    background-color: rgba(43, 32, 72, 0.5);
+    border-radius: 15px;
+}
+
+/*--------------------------Avis-----------------------------*/
+.fondTable {
+    min-height: calc(100vh - 60px);
+    background-image: url(https://zupimages.net/up/20/13/kf91.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: static;
+    clip-path: polygon(50% 0%, 100% 0, 100% 60%, 100% 100%, 0 100%, 0% 60%, 0 19%);
+}
+
+.avisJoueur {
+    min-height: calc(100vh - 60px);
+    background-color: #DBB66C;
+    clip-path: polygon(50% 0%, 100% 19%, 100% 60%, 100% 100%, 0 100%, 0% 60%, 0 0);
+}
+
+.avisJoueur span {
+    font-size: 4rem;
+    color: #4E7429;
+}
+
+.avisJoueur p {
+    font-family: 'Raleway', sans-serif;
+    font-size: 1.5rem;
+    color: white;
+}
+
+.avisJoueur h5 {
+    font-family: 'Dancing Script', cursive;
+    font-weight: bolder;
+    font-size: 3.5rem;
+    color: #2B2048;
+}
+
+/*--------------------------Contact-----------------------------*/
+#contact {
+    background-image: url(https://zupimages.net/up/20/13/tbmj.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+    min-height: calc(100vh - 60px);
+    clip-path: polygon(50% 3%, 100% 0, 100% 60%, 100% 100%, 0 100%, 0 60%, 0 0);
+}
+
+#contact .row {
+    min-height: calc(100vh - 60px);
+}
+
+.formContact {
+    background-color: rgba(219, 182, 108, 0.6);
+    padding: 2rem 1rem;
+    border-radius: 15px;
+}
+
+#formemail {
+    color: white;
+    font-family: 'Raleway', sans-serif;
+}
+
+#formsub {
+    color: white;
+    font-family: 'Raleway', sans-serif;
+}
+
+#formmess {
+    color: white;
+    font-family: 'Raleway', sans-serif;
+}
+
+/*--------------------------Footer-----------------------------*/
+footer {
+    background-color: #4E7429;
+    color: white;
+    padding-top: 2rem;
+    padding-bottom: 1.5rem;
+}
+
+footer a {
+    color: white;
+    font-size: 3rem;
+    transition: all .3s ease-in-out;
+    padding: 1rem;
+}
+
+footer a:hover {
+    color: #2B2048;
+    font-size: 3rem;
+    text-decoration: none;
+}
+
+footer .rue {
+    font-family: 'Raleway', sans-serif;
+    font-size: 1.5rem;
+}
+
+footer .adresse {
+    font-family: 'Dancing Script', cursive;
+    font-size: 1.8rem;
+    font-weight: bolder;
+}

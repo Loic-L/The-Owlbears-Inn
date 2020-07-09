@@ -1,0 +1,206 @@
+/*--------------------------Navbar-----------------------------*/
+.navbar-brand img {
+    max-height: 40px;
+}
+
+
+#navTitle {
+    font-family: 'Raleway', sans-serif;
+}
+
+.menu {
+    font-family: 'Raleway', sans-serif;
+}
+
+.navbar-light .navbar-brand:focus {
+    color: white;
+} 
+
+
+.navbar-light .navbar-brand:hover {
+    color: rgba(43, 32, 72, 0.5);
+}
+
+.navbar-light .navbar-nav .active>.nav-link, .navbar-light .navbar-nav .nav-link.active, .navbar-light .navbar-nav .nav-link.show, .navbar-light .navbar-nav .show>.nav-link {
+    color: rgba(255, 255, 255, 0.9);
+}
+
+.navbar-light .navbar-brand {
+    color: rgba(255, 255, 255, 0.9);
+}
+
+.bg-light {
+    background-color: #4E7429!important;
+}
+
+
+/*--------------------------Header-----------------------------*/
+.btn-info.focus, .btn-info:focus {
+    color: #fff;
+    background-color: #4E7429;
+    border-color: #4E7429;
+    box-shadow: 0 0 0 0.2rem rgba(43, 32, 72, 0.5);
+}
+
+.btn-info:not(:disabled):not(.disabled).active, .btn-info:not(:disabled):not(.disabled):active, .show>.btn-info.dropdown-toggle {
+    color: #fff;
+    background-color: #4E7429;
+    border-color: #4E7429;
+}
+
+.btn-info:hover {
+    color: #fff;
+    background-color: #4E7429;
+    border-color: #4E7429;
+}
+
+.btn-info {
+    color: #fff;
+    background-color: #4E7429;
+    border-color: #fff;
+    font-family: 'Raleway', sans-serif;
+    margin-top: 3rem;
+}
+
+
+header .row {   
+    background-image: url(https://zupimages.net/up/20/16/4don.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+    min-height: 90vh;
+    color: white;
+    clip-path: polygon(20% 0%, 80% 0%, 100% 0, 100% 80%, 80% 100%, 20% 100%, 0% 80%, 0 0);
+}
+
+header .formReservation {
+    background-color: rgba(0, 0, 0, 0.5);
+    min-height: 90vh;
+    display: flex;
+    align-items: center;
+}
+
+header h1 {
+    font-family: 'Raleway', sans-serif;
+}
+
+
+header h2 {
+    font-family: 'Dancing Script', cursive;
+    margin-bottom: -10px;
+    color: white;
+    font-size: 38px;
+    font-weight: bolder;
+}
+
+header .slogan {
+    display: flex;
+    min-height: 70vh;
+    align-items: flex-end;
+    justify-content: flex-start;
+}
+
+@media (max-width: 768px) {
+    header .slogan{
+        display: none;
+    }
+}
+/*--------------------------Presentation-----------------------------*/
+#titlePres h1 {
+    color: #4E7429;
+    font-family: 'Dancing Script', cursive;
+    font-weight: bolder;
+    margin-top: 3rem;
+}
+
+.sessPartp {
+    margin-top: 3rem;
+    margin-bottom: 5rem;
+    margin-left: 4.5rem;
+    margin-right: 4.5rem;
+    font-family: 'Raleway', sans-serif;
+}
+
+#ref {
+    margin-left: 2.5rem;
+    margin-right: 2.5rem;
+    margin-top: 2rem;
+    margin-bottom: 2rem;
+    font-family: 'Raleway', sans-serif;
+    color: #4E7429;
+}
+
+h3 {
+    margin-top: 2rem;
+    margin-bottom: 2rem;
+    font-family: 'Dancing Script', cursive;
+    font-weight: bolder;
+    color: #4E7429;
+}
+
+#decouvertePres {
+    background-color: rgba(113, 151, 75, 0.4);
+    border-radius: 15px;
+    margin-top: 3rem;
+    margin-bottom: 3rem;
+}
+
+#multiversPres {
+    background-color: rgba(113, 151, 75, 0.4);
+    border-radius: 15px;
+    margin-top: 3rem;
+    margin-bottom: 3rem;
+}
+
+#rencontrePres {
+    background-color: rgba(113, 151, 75, 0.4);
+    border-radius: 15px;
+    margin-top: 3rem;
+    margin-bottom: 3rem; 
+}
+
+#rumeurPres {
+    background-color: rgba(113, 151, 75, 0.4);
+    border-radius: 15px;
+    margin-top: 3rem;
+    margin-bottom: 3rem;
+}
+
+#contactPres {
+    background-color: rgba(113, 151, 75, 0.4);
+    border-radius: 15px;
+    margin-top: 3rem;
+    margin-bottom: 3rem;
+}
+
+/*--------------------------Footer-----------------------------*/
+footer {
+    background-color: #4E7429;
+    color: white;
+    padding-top: 2rem;
+    padding-bottom: 1.5rem;
+}
+
+footer a {
+    color: white;
+    font-size: 3rem;
+    transition: all .3s ease-in-out;
+    padding: 1rem;
+}
+
+footer a:hover {
+    color: #2B2048;
+    font-size: 3rem;
+    text-decoration: none;
+}
+
+footer .rue {
+    font-family: 'Raleway', sans-serif;
+    font-size: 1.5rem;
+}
+
+footer .adresse {
+    font-family: 'Dancing Script', cursive;
+    font-size: 1.8rem;
+    font-weight: bolder;
+}
